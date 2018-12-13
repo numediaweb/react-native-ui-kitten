@@ -169,6 +169,7 @@ export class RkModalImg extends RkComponent {
     index: PropTypes.number,
     source: PropTypes.oneOfType([
       PropTypes.arrayOf(PropTypes.node),
+      PropTypes.arrayOf(PropTypes.object),
       PropTypes.node,
     ]).isRequired,
     style: ViewPropTypes.style,
